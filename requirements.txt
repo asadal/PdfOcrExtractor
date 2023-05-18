@@ -1,6 +1,5 @@
 pypdf3
 streamlit
-tempdir
 temp
 pdfplumber
 tqdm
