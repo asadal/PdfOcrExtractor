@@ -1,3 +1,4 @@
-freetype 
-imagemagick
-ghostscript
+libfreetype6-dev
+libmagickwand-dev
+libjpeg62-turbo-dev
+libpng-dev
