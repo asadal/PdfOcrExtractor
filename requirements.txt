@@ -1,0 +1,7 @@
+pypdf3
+streamlit
+temp
+pdfplumber
+tqdm
+pytesseract
+wand
