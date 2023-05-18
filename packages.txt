@@ -1,0 +1,3 @@
+freetype 
+imagemagick
+ghostscript
