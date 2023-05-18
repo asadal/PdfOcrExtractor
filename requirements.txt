@@ -6,3 +6,4 @@ tqdm
 pytesseract
 wand
 freetype-py
+ImageMagick
