@@ -64,7 +64,7 @@ def app():
     
     if pdf_file is not None:
         try:
-            os.system("brew install tesseract tesseract-lang && brew link tesseract")
+#             os.system("brew install tesseract tesseract-lang && brew link tesseract")
             with st.spinner("텍스트를 추출하고 있습니다..."):
                 with NamedTemporaryFile(delete=True) as tmp_file:
                     tmp_file.write(pdf_file.getvalue())
@@ -87,7 +87,7 @@ def app():
         
     elif img_file is not None:
         try:
-            os.system("brew install tesseract tesseract-lang && brew link tesseract")
+#             os.system("brew install tesseract tesseract-lang && brew link tesseract")
             with st.spinner("텍스트를 추출하고 있습니다..."):
                 with NamedTemporaryFile(delete=True) as tmp_file:
                     tmp_file.write(img_file.getvalue())
