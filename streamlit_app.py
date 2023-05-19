@@ -49,7 +49,7 @@ def app():
     st.subheader("이미지 파일에서 텍스트를 추출해줍니다.")
     st.subheader("광학문자인식(OCR) 기능을 이용합니다.")
     st.write("이미지(jpg, png...) 파일을 묶은 PDF에서 이미지 파일을 분리한 다음, 각 이미지에 포함된 글자들을 OCR로 추출합니다.")
-    st.markdown("PDF 문서 파일에서 텍스트만 분리하시려면 [*PDF Extractor*](https://asadal-pdf.streamlit.app/)를 이용해주세요.")
+    st.markdown("PDF 문서 파일에서 텍스트만 분리하시려면 [**PDF Extractor**](https://asadal-pdf.streamlit.app/)를 이용해주세요.")
     
     if 'key' not in st.session_state:
         st.session_state['key'] = 'value'
