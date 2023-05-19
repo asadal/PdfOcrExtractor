@@ -1,1 +1,2 @@
 libfreetype6-dev
+tesseract-ocr
