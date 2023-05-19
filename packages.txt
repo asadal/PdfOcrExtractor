@@ -1,2 +1,3 @@
 libfreetype6-dev
 tesseract-ocr
+libgl1-mesa-glx
