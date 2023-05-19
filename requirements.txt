@@ -5,3 +5,5 @@ pytesseract
 tqdm
 pdf2image
 opencv-python
+PyOpenGL
+PyOpenGL_accelerate
