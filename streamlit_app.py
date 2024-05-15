@@ -32,7 +32,7 @@ def app():
     with col2:
         if st.button("clear ↺"):
             st.session_state.clear()  # 상태 초기화
-            st.experimental_rerun()  # 재실행
+            st.rerun()  # 재실행
     
     st.subheader("이미지 파일에서 텍스트를 추출해줍니다.")
     st.subheader("광학문자인식(OCR) 기능을 이용합니다.")
