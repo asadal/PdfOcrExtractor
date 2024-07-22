@@ -10,7 +10,7 @@ import cv2
 import re
 
 def extract_text_from_img(img):
-    pytesseract.pytesseract.tesseract_cmd = '/tesseract-ocr/tessdata/'
+    # pytesseract.pytesseract.tesseract_cmd = '/tesseract-ocr/tessdata/'
     text_string = pytesseract.image_to_string(img, lang='kor+eng').strip()
     return text_string
 
