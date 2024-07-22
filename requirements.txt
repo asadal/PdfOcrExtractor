@@ -7,3 +7,4 @@ pdf2image
 opencv-python
 PyOpenGL
 PyOpenGL_accelerate
+pillow
