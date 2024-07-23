@@ -11,7 +11,7 @@ import re
 
 def extract_text_from_img(img):
     # pytesseract.pytesseract.tesseract_cmd = 'tesseract-ocr/tessdata/'
-    config = '--tessdata-dir "tessdata"'
+    config = r'--tessdata-dir "tessdata"'
     # config = ('-l kor+eng')
     text_string = pytesseract.image_to_string(img, lang='kor+eng', config=config).strip()
     return text_string
@@ -21,7 +21,7 @@ def output_text(st, final_txt):
     st.text_area("", value=final_txt, height=500)
     st.header("텍스트 다운로드")
     st.download_button(
-        label="📥 Download ⏱",
+        label="Download",
         data=final_txt,
         file_name='extracted_text.txt',
         mime='text/plain'
