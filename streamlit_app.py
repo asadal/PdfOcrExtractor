@@ -12,8 +12,7 @@ import re
 def extract_text_from_img(img):
     # pytesseract.pytesseract.tesseract_cmd = '/tesseract-ocr/tessdata/'
     config = ('-l kor+eng')
-    text_string = pytesseract.image_to_string(img).strip()
-    # text_string = pytesseract.image_to_string(img, config=config).strip()
+    text_string = pytesseract.image_to_string(img, config=config).strip()
     return text_string
 
 def output_text(st, final_txt):
