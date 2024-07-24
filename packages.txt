@@ -2,4 +2,4 @@ libfreetype6-dev
 tesseract-ocr
 libgl1-mesa-glx
 poppler-utils
-tesseract-ocr-kor
+# tesseract-ocr-kor
