@@ -11,10 +11,10 @@ import re
 
 def extract_text_from_img(img):
     # pytesseract.pytesseract.tesseract_cmd = 'tesseract-ocr/tessdata/'
-    # tessdata_dir_config = r'--tessdata-dir "tessdata"'
+    tessdata_dir_config = r'--tessdata-dir "tessdata"'
     # config = ('-l kor+eng')
-    # text_string = pytesseract.image_to_string(img, lang='kor+eng', config=tessdata_dir_config).strip()
-    text_string = pytesseract.image_to_string(img, lang='kor+eng').strip()
+    text_string = pytesseract.image_to_string(img, lang='kor+eng', config=tessdata_dir_config).strip()
+    # text_string = pytesseract.image_to_string(img, lang='kor+eng').strip()
     return text_string
 
 def output_text(st, final_txt):
